@@ -2,7 +2,7 @@ import { useState } from 'react';
 import axios from 'axios';
 import './contact.styles.css'
 
-const API_URI = "http://localhost:5005";
+const API_URI = "https://writabeatsserver.onrender.com";
 
 const defaultFormFields = {
     name: '',

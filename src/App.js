@@ -24,7 +24,7 @@ function App() {
 
   
   useEffect(() => {
-    axios.get('http://localhost:5005/api')
+    axios.get('https://writabeatsserver.onrender.com/api')
     .then((response) => {
       // console.log(response);
 

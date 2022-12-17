@@ -4,7 +4,7 @@ import Cart from "../cart/cart.component";
 import '../music/music.styles.css'
 import { CartContextWrapper } from "../../context/cart.context";
 import { CartContext } from "../../context/cart.context";
-const API_URL = 'http://localhost:5005';
+const API_URL = 'https://writabeatsserver.onrender.com';
 
 
 

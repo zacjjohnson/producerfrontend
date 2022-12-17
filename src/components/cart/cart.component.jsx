@@ -3,7 +3,7 @@ import { CartContext } from "../../context/cart.context";
 import axios from "axios";
 import "../cart/cart.styles.css"
 
-const API_URL = "http://localhost:5005";
+const API_URL = "https://writabeatsserver.onrender.com";
 
 
 const Cart = () => {
