@@ -1,0 +1,24 @@
+.about-container {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+}
+
+.left-about {
+    width: 100vw;
+}
+
+.left-about img {
+    width: 35vw;
+}
+
+.right-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.right-about h3 {
+    line-height: 2.0;
+}
