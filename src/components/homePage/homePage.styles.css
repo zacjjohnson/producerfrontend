@@ -49,3 +49,16 @@
 .homepage-image img{
     width: 55vw;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .name {
+      font-size: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .home-page img {
+      display: block;
+    }
+  }
