@@ -28,10 +28,6 @@ const Music = () => {
     
     return (
         <CartContextWrapper>
-          <div className="music-title-text">
-            <h1>Purchase the soundtrack to your next big single</h1>
-          </div>
-    
           <div className="music-container">
             <div className="music-left-page">
               <h2>Purchase premade beats, or reach out to me for custom creations as well.</h2>
