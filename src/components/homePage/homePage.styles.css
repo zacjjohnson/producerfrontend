@@ -60,11 +60,13 @@
 
     .home-page {
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
         padding: 2rem;
     }
 
-    .name {
+    .home-page .name {
         font-size: 30px;
       }
   }
