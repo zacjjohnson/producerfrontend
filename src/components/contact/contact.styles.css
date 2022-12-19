@@ -72,3 +72,26 @@
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
+
+
+
+@media (max-width: 500px) {
+    .sign-up-container input,
+    .input-form-message {
+      width: 90%;
+    }
+  
+    .sign-up-container button {
+      width: 45%;
+    }
+
+    .contact-page {
+        flex-direction: column;
+      }
+
+      .sign-up-container input,
+      .sign-up-container button,
+      .input-form-message {
+        font-size: 5vw;
+      }
+  }
