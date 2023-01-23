@@ -8,8 +8,7 @@ import axios from 'axios';
 import { AuthContext } from '../../context/auth.context';
 
 
-const API_URL = "producerdashboardserver.vercel.app
-";
+const API_URL = "producerdashboardserver.vercel.app";
 
 
 function Beats() {
