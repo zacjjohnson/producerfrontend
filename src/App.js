@@ -24,7 +24,8 @@ function App() {
 
   
   useEffect(() => {
-    axios.get('https://writabeatsserver.onrender.com/api')
+    axios.get('producerdashboardserver.vercel.app
+/api')
     .then((response) => {
       // console.log(response);
 
