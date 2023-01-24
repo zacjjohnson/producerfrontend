@@ -3,7 +3,9 @@ import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import './sign-up.styles.css'
 
-const API_URI = "https://producer-frontend.vercel.app";
+const API_URI = "https://producerdashboardserver.vercel.app";
+
+
 
 const defaultFormFields = {
     name: '',

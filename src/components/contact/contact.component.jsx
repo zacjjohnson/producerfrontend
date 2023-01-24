@@ -2,7 +2,7 @@ import { useState } from 'react';
 import axios from 'axios';
 import './contact.styles.css'
 
-const API_URI = "https://producer-frontend.vercel.app";
+const API_URI = "https://producerdashboardserver.vercel.app";
 
 const defaultFormFields = {
     name: '',

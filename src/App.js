@@ -24,7 +24,7 @@ function App() {
 
   
   useEffect(() => {
-    axios.get('https://producer-frontend.vercel.app/api')
+    axios.get('https://producerdashboardserver.vercel.app/api')
     .then((response) => {
       // console.log(response);
 

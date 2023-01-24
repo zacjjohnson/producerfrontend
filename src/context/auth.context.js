@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-const API_URL = 'https://producer-frontend.vercel.app';
+const API_URL = 'https://producerdashboardserver.vercel.app';
 
 const AuthContext = React.createContext();
 
