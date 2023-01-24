@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import '../auth/sign-in.styles.css';
 import { AuthContext } from '../../context/auth.context';
 
-const API_URL = "producerdashboardserver.vercel.app";
+const API_URL = "https://producer-frontend.vercel.app";
 
     const defaultFormFields = {
         email: '',
