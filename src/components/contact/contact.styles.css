@@ -16,8 +16,9 @@
 .form input {
     border-radius: 2px;
     border: 1px solid black;
-    /* margin: 1rem; */
-    width: 75vw;
+    margin: 1rem;
+    padding: 1rem;
+    width: 50vw;
     height: 2rem;
 }
 
@@ -25,12 +26,12 @@
 .form button {
     border-radius: 2px;
     border: 1px solid black;
-    /* padding: 1rem; */
-    width: 75vw;
+    width: 50vw;
+    padding: 1rem;
     background-color: white;
     color: black;
     font-size: 1.1em;
-    /* margin-top: 1rem; */
+    
 }
 
 .form button:hover {
@@ -38,35 +39,45 @@
     color: white;
 }
 
-.form .input-form-message {
-    border-radius: 2px;
-    border: 1px solid black;
-    /* margin: 1rem; */
-    width: 75vw;
-    height: 10rem;
+.input-form-message {
+  border-radius: 2px;
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 1rem;
+  width: 50vw;
+  height: 2rem;
 }
 
 
 
 
 
-/* @media (max-width: 500px) {
-    .sign-up-container input,
-    .input-form-message {
-      width: 90%;
-    }
-  
-    .sign-up-container button {
-      width: 45%;
+@media (max-width: 500px) {
+    h1 {
+      font-size: 5vw;
     }
 
-    .contact-page {
-        flex-direction: column;
-      }
+    h2 {
+      font-size: 5vw;
+    }
 
-      .sign-up-container input,
-      .sign-up-container button,
-      .input-form-message {
-        font-size: 5vw;
-      }
-  } */
+    /* .input-form-message {
+      border-radius: 2px;
+      border: 1px solid black;
+      margin: 1rem;
+      padding: 1rem;
+      width: 50vw;
+      height: 10rem;
+    } */
+
+    .form button {
+      border-radius: 2px;
+      border: 1px solid black;
+      width: 50vw;
+      padding: 1rem;
+      background-color: white;
+      color: black;
+            
+  }
+    
+  }
