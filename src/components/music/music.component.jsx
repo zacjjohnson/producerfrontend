@@ -30,7 +30,7 @@ const Music = () => {
         <CartContextWrapper>
           <div className="music-container">
             <div className="music-left-page">
-              <h2>Purchase premade beats, or reach out to me for custom creations as well.</h2>
+              <h2>Purchase premade beats, custom beats,  and more.</h2>
             </div>
     
             <div className="music-right-page">
