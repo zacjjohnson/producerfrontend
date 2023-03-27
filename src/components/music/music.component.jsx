@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from "react"
 import axios from "axios";
-import Cart from "../cart/cart.component";
+// import Cart from "../cart/cart.component";
 import '../music/music.styles.css'
 import { CartContextWrapper } from "../../context/cart.context";
 import { CartContext } from "../../context/cart.context";

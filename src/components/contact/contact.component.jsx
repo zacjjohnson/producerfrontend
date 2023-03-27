@@ -54,13 +54,13 @@ const Contact = () => {
 
             <div className='contact-text'>
                 <h1>Want to work? Get in touch!</h1>
-                <img src={'https://i.imgur.com/pnrJDv0.jpg'} alt='contact'></img>
+                {/* <img src={'https://i.imgur.com/pnrJDv0.jpg'} alt='contact'></img> */}
             </div>
 
             <div className='sign-up-container'>
                 
 
-                <form onSubmit={handleContactSubmit}>
+                <form className='form' onSubmit={handleContactSubmit}>
                     <h2>Contact me here</h2>
 
                     <input 
