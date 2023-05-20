@@ -37,17 +37,24 @@
 .image {
     display: flex;
     justify-content: center;
+    
 }
 
 .home-page h3 {
     text-decoration: underline;
 }
 
-.homepage-image {
+/* .homepage-image {
     padding: 2rem;
 }
 .homepage-image img{
     width: 55vw;
+} */
+
+.homepage-image {
+    width: 25vh;
+    border: white;
+    border-radius: 25%;
 }
 
 

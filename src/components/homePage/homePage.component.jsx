@@ -1,10 +1,8 @@
-import profileImage from '../../assets/profile.JPG';
 import './homePage.styles.css'
-import Artist from '../artists/artists.component';
 import { useContext } from 'react';
 import { AuthContext } from '../../context/auth.context';
 
-// import { useState } from 'react';
+
 
 
 const HomePage = () => {
@@ -26,7 +24,7 @@ const HomePage = () => {
                 </div>
                 <div className='main-image'>
 
-                    <img src='https://i.imgur.com/WAvRbPQ.jpg' alt='profileimage'></img>
+                    <img src='https://imagizer.imageshack.com/img922/4953/1OsPb9.jpg' alt='profileimage'></img>
 
                 </div>
             
@@ -64,7 +62,8 @@ const HomePage = () => {
               </div>
               <div className="main-image">
                 <img
-                  src="https://i.imgur.com/WAvRbPQ.jpg"
+                  className='homepage-image'
+                  src="https://imagizer.imageshack.com/img922/4953/1OsPb9.jpg"
                   alt="profileimage"
                 ></img>
               </div>

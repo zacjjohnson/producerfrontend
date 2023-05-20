@@ -30,7 +30,7 @@ const Music = () => {
         <CartContextWrapper>
           <div className="music-container">
             <div className="music-left-page">
-              <h2>Purchase premade beats, custom beats,  and more.</h2>
+              <h2>If you like anything you hear, please reach out to setup a beat purchase.</h2>
             </div>
     
             <div className="music-right-page">
@@ -42,7 +42,7 @@ const Music = () => {
                     <audio controls>
                       <source src={beat.link} type="audio/wav"/>
                     </audio>
-                    <button onClick={() => addToCart(beat)} className="add-to-cart">Add To Cart</button>
+                    {/* <button onClick={() => addToCart(beat)} className="add-to-cart">Add To Cart</button> */}
                   </li>
                 </div>
               ))}
