@@ -93,7 +93,7 @@ const Contact = () => {
         <div className="flex flex-col mx-auto rounded-lg align-middle">
           <form
             novalidate=""
-            className="flex flex-col align-center w-full p-10 rounded-lg shadow-lg"
+            className="flex flex-col align-center w-full p-10 rounded-lg shadow hover:shadow-lg bg-slate-100"
             onSubmit={handleContactSubmit}
           >
             <div className="flex flex-col">
@@ -103,9 +103,9 @@ const Contact = () => {
               <input
                 id="name"
                 type="text"
-                name='name'
+                name="name"
                 placeholder=""
-                className="p-3 rounded"
+                className="p-3 rounded border border-black box-border"
                 value={name}
                 onChange={handleChange}
               />
@@ -117,8 +117,8 @@ const Contact = () => {
               <input
                 id="email"
                 type="email"
-                name='email'
-                className="p-3 rounded"
+                name="email"
+                className="p-3 rounded border border-black box-border"
                 value={email}
                 onChange={handleChange}
               />
@@ -131,7 +131,7 @@ const Contact = () => {
                 id="message"
                 name="message"
                 rows="3"
-                className="w-full p-3 rounded border"
+                className="p-3 rounded border border-black w-full box-border"
                 value={message}
                 onChange={handleChange}
               ></textarea>
