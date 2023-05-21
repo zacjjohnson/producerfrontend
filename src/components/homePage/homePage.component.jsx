@@ -1,78 +1,53 @@
-import './homePage.styles.css'
-import { useContext } from 'react';
-import { AuthContext } from '../../context/auth.context';
-
-
-
+import { useContext } from "react";
+import { AuthContext } from "../../context/auth.context";
 
 const HomePage = () => {
+  const { isLoggedIn, user } = useContext(AuthContext);
+  console.log(user);
 
-    const { isLoggedIn, user } = useContext(AuthContext);
-    console.log(user);
+  if (user) {
+    const { name, location } = user;
+    console.log(name, location);
+    return (
+      <>
+        <div className="flex flex-row mx-auto min-w-full justify-center gap-48 pt-12">
+          <div className="">
+            <h1 className="text-8xl p-8">Writa Beats</h1>
+            <h2 className="text-6xl p-4">Producer</h2>
+            <h4 className="text-4xl p-4">Orlando, Fl</h4>
+          </div>
 
-    if(user){
+          <div className="p-8">
+            <img
+              className="rounded-md  h-auto max-w-lg drop-shadow-sm"
+              src="https://imagizer.imageshack.com/img922/4953/1OsPb9.jpg"
+              alt="profileimage"
+            ></img>
+          </div>
+        </div>
+      </>
+    );
+  } else {
+    return (
+      <>
+        <div className="flex flex-row mx-auto min-w-full justify-center gap-48 pt-12">
+          <div className="">
+            <h1 className="text-8xl p-8">Writa Beats</h1>
+            <h2 className="text-6xl p-4">Producer</h2>
+            <h4 className="text-4xl p-4">Orlando, Fl</h4>
+          </div>
 
-        const { name, location } = user;
-        console.log(name, location);
-        return (
-            <>
-            <div className="home-page">
-
-                <div className='name'>
-                    <h1>Writa Beats</h1>
-                    
-                </div>
-                <div className='main-image'>
-
-                    <img src='https://imagizer.imageshack.com/img922/4953/1OsPb9.jpg' alt='profileimage'></img>
-
-                </div>
-            
-    
-            
-            </div>
-
-            </>
-        )
-    } else {
-        return (
-          <>
-            {/* <section className=" dark:text-gray-800">
-              <div className="mx-auto flex flex-row items-center px-4 py-16 text-center md:py-32 md:px-10 lg:px-32 xl:max-w-3xl">
-                <h1 className="text-4xl font-bold leading-none sm:text-5xl">
-                  Writa Beats
-                  <p className="px-8 mt-8 mb-12 text-lg">
-                    Producer from Orlando, FL
-                  </p>
-                </h1>
-
-                <img
-                  className="w-96"
-                  src="https://i.imgur.com/WAvRbPQ.jpg"
-                  alt="profileimage"
-                ></img>
-              </div>
-            </section> */}
-
-            <div className="home-page">
-              <div className="name">
-                <h1>Writa Beats</h1>
-                <h2>Producer</h2>
-                <h4>Orlando, Fl</h4>
-              </div>
-              <div className="main-image">
-                <img
-                  className='homepage-image'
-                  src="https://imagizer.imageshack.com/img922/4953/1OsPb9.jpg"
-                  alt="profileimage"
-                ></img>
-              </div>
-            </div>
-          </>
-        );
-    }
-    
-}
-
+          <div className="p-8">
+            <img
+              className="rounded-md  h-auto max-w-lg drop-shadow-sm"
+              src="https://imagizer.imageshack.com/img922/4953/1OsPb9.jpg"
+              alt="profileimage"
+            ></img>
+          </div>
+        </div>
+      </>
+    );
+  }
+};
 
 export default HomePage;
