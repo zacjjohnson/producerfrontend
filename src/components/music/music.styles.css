@@ -1,0 +1,93 @@
+.music-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    font-size: 30px;
+}
+
+.musiccontent {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    width: 100%;
+}
+
+.spotify, .beatstars {
+    display: flex;
+    justify-content: center; /* Center content inside the div */
+    flex: 1; /* Allow flex items to grow and shrink as needed */
+    max-width: 50%; /* Optional: if you want each to not exceed half the parent's width */
+}
+
+.spotify iframe, .beatstars iframe {
+    width: 100%; /* Make iframe fill the width of its parent div */
+}
+
+@media only screen and (max-width: 600px) {
+    .music-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+  }
+
+/* .music-left-page {
+    width: 1/2;
+    font-size: 30px;
+}
+
+.music-right-page {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    width: 1/2;
+} */
+
+@media only screen and (max-width: 600px) {
+    .music-right-page {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+  }
+
+.onsale-beats {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 2rem;
+}
+
+.onsale-beats button {
+    margin: auto;
+    padding-top: 2rem;
+    border-radius: 2px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 250px;
+    background-color: white;
+    color: black;
+    font-size: 1.1em;
+    margin-top: 15px;
+}
+
+.onsale-beats audio {
+    padding-top: 1rem;
+}
+
+li {
+    margin: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .music-container {
+        flex-direction: column;
+    }
+
+}
